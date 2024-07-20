@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5d6a97e23ca566cd",
+        "id": "842e81844ce2cbfc",
         "type": "tabs",
         "children": [
           {
-            "id": "3928ef4c16172133",
+            "id": "1aa9e62c75499511",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Leetcode/2390 Removing Stars From a String.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leetcode/2390 Removing Stars From a String.md",
+                "file": "Python/Useful functions/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leetcode/2390 Removing Stars From a String.md",
+                "file": "Python/Useful functions/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leetcode/2390 Removing Stars From a String.md"
+                "file": "Python/Useful functions/Untitled.md"
               }
             }
           }
@@ -146,13 +142,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3928ef4c16172133",
+  "active": "3ab18bcba1e69a49",
   "lastOpenFiles": [
+    "Python/Data structures/Untitled.md",
+    "Python/Useful functions/Untitled.md",
+    "Python/Algorithms/Untitled.md",
+    "README.md",
     "Leetcode/735 Asteroid Collision.md",
     "Leetcode/394 Decode String.md",
     "Leetcode/49 Group Anagrams.md",
     "Leetcode/2390 Removing Stars From a String.md",
-    "Untitled.md",
     "Leetcode/42 Trapping Rain Water.md",
     "Leetcode/1 Two Sum.md",
     "Leetcode/1679 Max Number of K-Sum Pairs.md",
@@ -172,7 +171,6 @@
     "Leetcode/128 Longest Consecutive Sequence.md",
     "Leetcode/36 Valid Sudoku.md",
     "Untitled.canvas",
-    "2024-07-15.md",
     "Python/Algorithms",
     "Python/Useful functions",
     "Python/Data structures",
@@ -188,8 +186,6 @@
     "Leetcode/Screenshot 2024-07-14 204702 3.png",
     "Leetcode/Screenshot 2024-07-14 204702 2.png",
     "Leetcode/Screenshot 2024-07-14 204702 1.png",
-    "Leetcode",
-    "Test note.md",
-    "second note.md"
+    "Leetcode"
   ]
 }
