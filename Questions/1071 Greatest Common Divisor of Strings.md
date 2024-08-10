@@ -1,3 +1,4 @@
+
 ## Problem
 #firsttry #leetcode75 
 For two strings `s` and `t`, we say "`t` divides `s`" if and only if `s = t + t + t + ... + t + t` (i.e., `t` is concatenated with itself one or more times).
@@ -16,6 +17,7 @@ Given two strings `str1` and `str2`, return _the largest string_ `x` _such
 `Input: str1 = "LEET", str2 = "CODE"`
 `Output: ""`
 
+---
 ## Solution
 For every substring starting with a single character, check if repeating the substring produces the string. If it does check if repeating the same substring produces the other string. If both conditions are true store substring.
 

@@ -1,0 +1,4 @@
+- [ ] All Any
+- [ ] itertools
+- [ ] data structures
+- [ ] dictionary sorting

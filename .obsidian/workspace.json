@@ -11,8 +11,12 @@
             "id": "1aa9e62c75499511",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Useful functions/Untitled.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Useful functions/Untitled.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Useful functions/Untitled.md"
+                "file": "README.md"
               }
             }
           }
@@ -142,35 +146,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3ab18bcba1e69a49",
+  "active": "1aa9e62c75499511",
   "lastOpenFiles": [
-    "Python/Data structures/Untitled.md",
-    "Python/Useful functions/Untitled.md",
-    "Python/Algorithms/Untitled.md",
+    "TODO.md",
+    "Questions/1 Two Sum.md",
     "README.md",
-    "Leetcode/735 Asteroid Collision.md",
-    "Leetcode/394 Decode String.md",
-    "Leetcode/49 Group Anagrams.md",
-    "Leetcode/2390 Removing Stars From a String.md",
-    "Leetcode/42 Trapping Rain Water.md",
-    "Leetcode/1 Two Sum.md",
-    "Leetcode/1679 Max Number of K-Sum Pairs.md",
-    "Leetcode/11 Container with most water.md",
-    "Leetcode/392 Is Subsequence.md",
-    "Leetcode/283 Move Zeros.md",
-    "Leetcode/238 Product of Array Except Self.md",
-    "Leetcode/334 Increasing Triplet Subsequence.md",
-    "Leetcode/242 Valid Anagram.md",
-    "Leetcode/219 Contains Duplicate II.md",
-    "Leetcode/345 Reverse Vowels of a String.md",
-    "Leetcode/1190 Reverse Substrings Between Each Pair of Parentheses.md",
-    "Leetcode/1071 Greatest Common Divisor of Strings.md",
-    "Leetcode/605 Can Place Flowers.md",
-    "Leetcode/347 Top k Frequent Elements.md",
-    "Leetcode/217 Contains Duplicate.md",
-    "Leetcode/128 Longest Consecutive Sequence.md",
-    "Leetcode/36 Valid Sudoku.md",
+    "some notes.md",
+    "Python/Algorithms/12. Sorting an array.md",
     "Untitled.canvas",
+    "Untitled.md",
+    "Questions/36 Valid Sudoku.md",
+    "Questions/242 Valid Anagram.md",
+    "Questions/735 Asteroid Collision.md",
+    "Questions/605 Can Place Flowers.md",
+    "Questions/219 Contains Duplicate II.md",
+    "Questions/238 Product of Array Except Self.md",
+    "Questions/49 Group Anagrams.md",
+    "Questions/11 Container with most water.md",
+    "Questions/42 Trapping Rain Water.md",
+    "Questions/394 Decode String.md",
+    "Questions/345 Reverse Vowels of a String.md",
+    "Questions/347 Top k Frequent Elements.md",
+    "Questions/217 Contains Duplicate.md",
+    "Questions/1071 Greatest Common Divisor of Strings.md",
+    "Questions/1190 Reverse Substrings Between Each Pair of Parentheses.md",
+    "Questions/2390 Removing Stars From a String.md",
+    "Questions/334 Increasing Triplet Subsequence.md",
+    "Questions/283 Move Zeros.md",
+    "Python/Data structures/Untitled.md",
+    "Questions/128 Longest Consecutive Sequence.md",
     "Python/Algorithms",
     "Python/Useful functions",
     "Python/Data structures",
