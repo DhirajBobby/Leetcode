@@ -4,22 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "b6269c82003300d0",
+        "id": "58bb0c00df33f992",
         "type": "tabs",
         "children": [
           {
-            "id": "e855f071d9254fd7",
+            "id": "f2d4857a2c1e4a04",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO.md",
+                "file": "Questions/121 Best time to Buy and Sell Stocks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c84354c693bde8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Questions/3 Longest Substring Without Repeating Characters.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b429c8d74b9d23d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Questions/424 Longest Repeating Character Replacement.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f50e7a4919f38291",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Questions/3 Longest Substring Without Repeating Characters.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO.md",
+                "file": "Questions/3 Longest Substring Without Repeating Characters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODO.md",
+                "file": "Questions/3 Longest Substring Without Repeating Characters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO.md"
+                "file": "Questions/3 Longest Substring Without Repeating Characters.md"
               }
             }
           }
@@ -146,35 +183,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e855f071d9254fd7",
+  "active": "f50e7a4919f38291",
   "lastOpenFiles": [
-    "Questions/334 Increasing Triplet Subsequence.md",
-    "Questions/217 Contains Duplicate.md",
-    "Questions/238 Product of Array Except Self.md",
-    "Questions/347 Top k Frequent Elements.md",
-    "Questions/283 Move Zeros.md",
-    "Questions/219 Contains Duplicate II.md",
-    "Questions/242 Valid Anagram.md",
-    "Questions/11 Container with most water.md",
-    "Python/Data structures/Untitled.md",
+    "Questions/424 Longest Repeating Character Replacement.md",
+    "Questions/3 Longest Substring Without Repeating Characters.md",
+    "Questions/121 Best time to Buy and Sell Stocks.md",
+    "Questions/567 Permutation in String.md",
+    "Questions/1657 Determine if Two Strings Are Close.md",
     "Questions/1 Two Sum.md",
-    "12. Sorting an array.md",
-    "README.md",
+    "Questions/2390 Removing Stars From a String.md",
     "Questions/1679 Max Number of K-Sum Pairs.md",
-    "Questions/128 Longest Consecutive Sequence.md",
-    "Questions/739 Daily Temperatures.md",
-    "Python/Algorithms/Untitled.md",
     "Questions/1190 Reverse Substrings Between Each Pair of Parentheses.md",
-    "Python/Algorithms/12. Sorting an array.md",
+    "Questions/1071 Greatest Common Divisor of Strings.md",
     "Questions/853 Car Fleet.md",
+    "Questions/739 Daily Temperatures.md",
     "Questions/735 Asteroid Collision.md",
-    "Questions/42 Trapping Rain Water.md",
-    "TODO.md",
-    "some notes.md",
-    "Untitled.canvas",
-    "Questions/36 Valid Sudoku.md",
+    "Questions/724 Find Pivot Index.md",
     "Questions/605 Can Place Flowers.md",
-    "Questions/49 Group Anagrams.md",
+    "Questions/394 Decode String.md",
+    "Questions/392 Is Subsequence.md",
+    "Questions/347 Top k Frequent Elements.md",
+    "Questions/345 Reverse Vowels of a String.md",
+    "Questions/334 Increasing Triplet Subsequence.md",
+    "Questions/283 Move Zeros.md",
+    "Questions/242 Valid Anagram.md",
+    "Questions/238 Product of Array Except Self.md",
+    "Questions/219 Contains Duplicate II.md",
+    "Questions/217 Contains Duplicate.md",
+    "Questions/128 Longest Consecutive Sequence.md",
+    "Questions/attachments/Screenshot 2024-07-14 204702.png",
+    "Untitled.canvas",
     "Python/Algorithms",
     "Python/Useful functions",
     "Python/Data structures",
@@ -189,7 +227,6 @@
     "Leetcode/Screenshot 2024-07-14 204702.png",
     "Leetcode/Screenshot 2024-07-14 204702 3.png",
     "Leetcode/Screenshot 2024-07-14 204702 2.png",
-    "Leetcode/Screenshot 2024-07-14 204702 1.png",
     "Leetcode"
   ]
 }

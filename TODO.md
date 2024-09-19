@@ -1,4 +1,4 @@
 - [ ] All Any
-- [ ] itertools
+- [ ] itertools - permutation
 - [ ] data structures
 - [ ] dictionary sorting
