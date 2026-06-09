@@ -52,8 +52,6 @@ Return length of stack as it will be equal to the number of fleets.
 class Solution:
     def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:
 
-  
-
         remaining_dist=[]
         temp=zip(position,speed)
         temp=sorted(temp,key=lambda x:x[0],reverse=True)

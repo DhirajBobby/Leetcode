@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Questions/42 Trapping Rain Water.md",
+                "file": "Questions/704. Binary Search.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "42 Trapping Rain Water"
+              "title": "704. Binary Search"
             }
           }
         ]
@@ -171,6 +171,25 @@
   },
   "active": "dd94a7722957eebd",
   "lastOpenFiles": [
+    "Questions/84. Largest Rectangle in Histogram.md",
+    "Questions/704. Binary Search.md",
+    "Questions/attachments/Pasted image 20260609231316.png",
+    "Questions/853 Car Fleet.md",
+    "Questions/150. Evaluate Reverse Polish Notation.md",
+    "Questions/739 Daily Temperatures.md",
+    "Questions/239. Sliding Window Maximum.md",
+    "Questions/49 Group Anagrams.md",
+    "Questions/239. Sliding Window Maximum 3.md",
+    "Questions/239. Sliding Window Maximum 6.md",
+    "leetcode-extension/Readme.txt.txt",
+    "leetcode-extension/New Text Document.txt",
+    "Questions/239. Sliding Window Maximum 5.md",
+    "Questions/239. Sliding Window Maximum 4.md",
+    "Questions/239. Sliding Window Maximum 2.md",
+    "Questions/239. Sliding Window Maximum 1.md",
+    "Questions/238 Product of Array Except Self.md",
+    "Questions/76. Minimum Window Substring.md",
+    "Questions/42 Trapping Rain Water.md",
     "Questions/11 Container with most water.md",
     "leetcode-extension/icons/icon192.png",
     "leetcode-extension/icons/icon512.png",
@@ -191,31 +210,13 @@
     "Questions/22. Generate Parentheses.md",
     "Questions/36. Valid Sudoku.md",
     "Questions/39. Combination Sum.md",
-    "Questions/40. Combination Sum II.md",
-    "Questions/42 Trapping Rain Water.md",
-    "Questions/49 Group Anagrams.md",
-    "Questions/51. N-Queens.md",
-    "Questions/77. Combinations.md",
-    "Questions/78. Subsets.md",
-    "Questions/79. Word Search.md",
-    "Questions/90. Subsets II.md",
-    "Questions/121 Best time to Buy and Sell Stocks.md",
-    "Questions/128 Longest Consecutive Sequence.md",
-    "Questions/131. Palindrome Partitioning.md",
-    "Questions/219 Contains Duplicate II.md",
-    "Questions/217 Contains Duplicate.md",
-    "Questions/334 Increasing Triplet Subsequence.md",
-    "Questions/238 Product of Array Except Self.md",
     "Untitled.base",
     "leetcode-extension/popup.js",
     "leetcode-extension/popup.html",
     "leetcode-extension/manifest.json",
     "leetcode-extension/content.js",
     "leetcode-extension/background.js",
-    "leetcode-extension",
     "Questions/attachments/Pasted image 20260530234503.png",
-    "Questions/attachments/Pasted image 20260530195443.png",
-    "Untitled.canvas",
-    "Python/Algorithms"
+    "Untitled.canvas"
   ]
 }

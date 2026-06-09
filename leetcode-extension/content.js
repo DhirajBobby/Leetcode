@@ -1,29 +1,64 @@
 async function getProblemInfo() {
   const slug = location.pathname.split('/problems/')[1].split('/')[0];
 
-  const response = await fetch('https://leetcode.com/graphql', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      query: `query getQuestion($titleSlug: String!) {
-        question(titleSlug: $titleSlug) {
-          questionFrontendId
-          title
-          topicTags { slug }
-          content
-        }
-      }`,
-      variables: { titleSlug: slug }
+  // Fetch problem details and latest submission id in parallel
+  const [questionRes, submissionRes] = await Promise.all([
+    fetch('https://leetcode.com/graphql', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        query: `query getQuestion($titleSlug: String!) {
+          question(titleSlug: $titleSlug) {
+            questionFrontendId
+            title
+            topicTags { slug }
+            content
+          }
+        }`,
+        variables: { titleSlug: slug }
+      })
+    }),
+    fetch('https://leetcode.com/graphql', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        query: `query recentAcSubmissions($username: String!, $limit: Int!) {
+          recentAcSubmissionList(username: $username, limit: $limit) {
+            id
+            titleSlug
+          }
+        }`,
+        variables: { username: "Dhiraj_B", limit: 25 }
+      })
     })
-  });
+  ]);
 
-  const data = await response.json();
-  const q = data.data.question;
+  const questionData = await questionRes.json();
+  const submissionData = await submissionRes.json();
 
-  // Convert topic tags to obsidian hashtags
+  const q = questionData.data.question;
+  const match = submissionData.data.recentAcSubmissionList.find(s => s.titleSlug === slug);
+
+  // Fetch code using submission id
+  let code = '# paste your solution here';
+  if (match) {
+    const codeRes = await fetch('https://leetcode.com/graphql', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        query: `query submissionDetails($submissionId: Int!) {
+          submissionDetails(submissionId: $submissionId) {
+            code
+          }
+        }`,
+        variables: { submissionId: match.id }
+      })
+    });
+    const codeData = await codeRes.json();
+    code = codeData.data.submissionDetails.code.replace(/\t/g, '    ');
+  }
+
   const tags = q.topicTags.map(t => `#${t.slug.replace(/-/g, '')}`).join(' ');
-
-  // Parse HTML content into markdown
   const parsed = parseContent(q.content);
 
   const noteContent = `## Problem
@@ -34,7 +69,7 @@ ${parsed}
 -- Write explanation here --
 
 \`\`\`python
-# paste your solution here
+${code}
 \`\`\``;
 
   return {
