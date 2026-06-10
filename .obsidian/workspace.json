@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Questions/704. Binary Search.md",
+                "file": "Questions/33. Search in Rotated Sorted Array.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "704. Binary Search"
+              "title": "33. Search in Rotated Sorted Array"
             }
           }
         ]
@@ -171,8 +171,11 @@
   },
   "active": "dd94a7722957eebd",
   "lastOpenFiles": [
-    "Questions/84. Largest Rectangle in Histogram.md",
+    "Questions/153. Find Minimum in Rotated Sorted Array.md",
+    "Questions/33. Search in Rotated Sorted Array.md",
+    "Questions/875. Koko Eating Bananas.md",
     "Questions/704. Binary Search.md",
+    "Questions/84. Largest Rectangle in Histogram.md",
     "Questions/attachments/Pasted image 20260609231316.png",
     "Questions/853 Car Fleet.md",
     "Questions/150. Evaluate Reverse Polish Notation.md",
@@ -207,9 +210,6 @@
     "Questions/3. Longest Substring Without Repeating Characters.md",
     "Questions/4. Median of Two Sorted Arrays.md",
     "Questions/17. Letter Combinations of a Phone Number.md",
-    "Questions/22. Generate Parentheses.md",
-    "Questions/36. Valid Sudoku.md",
-    "Questions/39. Combination Sum.md",
     "Untitled.base",
     "leetcode-extension/popup.js",
     "leetcode-extension/popup.html",
