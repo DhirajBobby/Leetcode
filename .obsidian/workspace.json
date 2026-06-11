@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Questions/33. Search in Rotated Sorted Array.md",
+                "file": "Questions/74. Search a 2D Matrix.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "33. Search in Rotated Sorted Array"
+              "title": "74. Search a 2D Matrix"
             }
           }
         ]
@@ -171,8 +171,11 @@
   },
   "active": "dd94a7722957eebd",
   "lastOpenFiles": [
-    "Questions/153. Find Minimum in Rotated Sorted Array.md",
+    "Questions/4. Median of Two Sorted Arrays.md",
+    "Questions/74. Search a 2D Matrix.md",
+    "Questions/attachments/Pasted image 20260611235002.png",
     "Questions/33. Search in Rotated Sorted Array.md",
+    "Questions/153. Find Minimum in Rotated Sorted Array.md",
     "Questions/875. Koko Eating Bananas.md",
     "Questions/704. Binary Search.md",
     "Questions/84. Largest Rectangle in Histogram.md",
@@ -208,15 +211,12 @@
     "Questions/2. Add Two Numbers 1.md",
     "Questions/3 Longest Substring Without Repeating Characters.md",
     "Questions/3. Longest Substring Without Repeating Characters.md",
-    "Questions/4. Median of Two Sorted Arrays.md",
-    "Questions/17. Letter Combinations of a Phone Number.md",
     "Untitled.base",
     "leetcode-extension/popup.js",
     "leetcode-extension/popup.html",
     "leetcode-extension/manifest.json",
     "leetcode-extension/content.js",
     "leetcode-extension/background.js",
-    "Questions/attachments/Pasted image 20260530234503.png",
     "Untitled.canvas"
   ]
 }
